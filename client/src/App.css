@@ -1,0 +1,20 @@
+/* @import './scss/login';
+@import './scss/register';
+@import './scss/ScreenLoader'; */
+@import 'tailwindcss';
+
+@theme {
+    --color-primary: #EC7424;
+    --color-secondary: #172554;
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+    flex-grow: 1;
+}
